@@ -1,0 +1,287 @@
+curl 'https://cpspromotion-api.zwnet.cn/app/promotion/playletPromoteList' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: zh-CN,zh;q=0.9' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://www.juzhuanzhuan.com' \
+  -H 'platform: 2' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.juzhuanzhuan.com/' \
+  -H 'sec-ch-ua: "Google Chrome";v="149", "Chromium";v="149", "Not)A;Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sign: 7b2e7f70e6c63a1c706d38f247236f60' \
+  -H 'token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJfIiwiYXVkIjoiXyIsImlhdCI6MTc3NzcwMzc0MywiZGF0YSI6eyJtZW1iZXJfaWQiOjEzNjg4fX0.jyxyZH9mRFfpjWDEPV9Sg-ASfiegk8rX49OgT7KDkZg' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36' \
+  --data-raw '{"start_time":"","end_time":"","order":"create_time","language_id":"","theater_id":"","page":1,"page_size":10}'
+获取推广的短剧
+{
+    "status_code": 1,
+    "msg": "查询成功",
+    "data": {
+        "data": [
+            {
+                "cps_playlet_id": "61811",
+                "playlet_id": "7injSAgeS5lCRbF6mkN1AA==",
+                "order_amount_yuan": "0",
+                "order_settle_amount_yuan": "0",
+                "order_num": "0",
+                "ad_amount_yuan": "/",
+                "ad_settle_amount_yuan": "/",
+                "estimate_amount_yuan": "0",
+                "click_frequency": "0",
+                "search_frequency": "0",
+                "stain_user_count": "0",
+                "create_time": "2026-06-14 23:53:22",
+                "playlet_title": "Brothers' Regret After I Left",
+                "playlet_cover": "https://x.getokm.com/videobook/202605/cover-73qihcl5ro.jpg",
+                "playlet_labels": "",
+                "language_name": "英语",
+                "social_media_id_list": [
+                    "13",
+                    "14",
+                    "15"
+                ],
+                "theater_name": "GoodShort",
+                "theater_icon_url": "https://cpspromotioncdn.zwnet.cn/cps_image/system/_qZn1iSDN1mk0bfd8d90c3f476aed315500f8a4d7f2d_20260317104041_c9e1f85d58.png",
+                "app_click_frequency": "0"
+            },
+            {
+                "cps_playlet_id": "61793",
+                "playlet_id": "//p3uiHOqQer/f3Q+/nW4g==",
+                "order_amount_yuan": "0",
+                "order_settle_amount_yuan": "0",
+                "order_num": "0",
+                "ad_amount_yuan": "/",
+                "ad_settle_amount_yuan": "/",
+                "estimate_amount_yuan": "0",
+                "click_frequency": "0",
+                "search_frequency": "0",
+                "stain_user_count": "0",
+                "create_time": "2026-06-14 23:53:19",
+                "playlet_title": "Ring Off Crown On",
+                "playlet_cover": "https://x.getokm.com/videobook/202604/cover-1z0yCw9XnE.jpg",
+                "playlet_labels": "",
+                "language_name": "英语",
+                "social_media_id_list": [
+                    "9",
+                    "13"
+                ],
+                "theater_name": "GoodShort",
+                "theater_icon_url": "https://cpspromotioncdn.zwnet.cn/cps_image/system/_qZn1iSDN1mk0bfd8d90c3f476aed315500f8a4d7f2d_20260317104041_c9e1f85d58.png",
+                "app_click_frequency": "0"
+            },
+            {
+                "cps_playlet_id": "61816",
+                "playlet_id": "HWLL4Fa1BFaqp6xFB0QCVg==",
+                "order_amount_yuan": "0",
+                "order_settle_amount_yuan": "0",
+                "order_num": "0",
+                "ad_amount_yuan": "/",
+                "ad_settle_amount_yuan": "/",
+                "estimate_amount_yuan": "0",
+                "click_frequency": "0",
+                "search_frequency": "0",
+                "stain_user_count": "0",
+                "create_time": "2026-06-14 23:52:45",
+                "playlet_title": "Too Late, My Ex—I Belong to the Dragon King Now",
+                "playlet_cover": "https://x.getokm.com/videobook/202606/cover-AzuM27maqU.jpg",
+                "playlet_labels": "",
+                "language_name": "英语",
+                "social_media_id_list": [
+                    "9",
+                    "13",
+                    "15"
+                ],
+                "theater_name": "GoodShort",
+                "theater_icon_url": "https://cpspromotioncdn.zwnet.cn/cps_image/system/_qZn1iSDN1mk0bfd8d90c3f476aed315500f8a4d7f2d_20260317104041_c9e1f85d58.png",
+                "app_click_frequency": "0"
+            },
+            {
+                "cps_playlet_id": "61789",
+                "playlet_id": "HrJHejmEdEeiyb7uSxg6UQ==",
+                "order_amount_yuan": "0",
+                "order_settle_amount_yuan": "0",
+                "order_num": "0",
+                "ad_amount_yuan": "/",
+                "ad_settle_amount_yuan": "/",
+                "estimate_amount_yuan": "0",
+                "click_frequency": "0",
+                "search_frequency": "0",
+                "stain_user_count": "0",
+                "create_time": "2026-06-14 23:52:24",
+                "playlet_title": "Queen Reborn, A Gambit Unfolded",
+                "playlet_cover": "https://x.getokm.com/videobook/202604/cover-nlxaAgpOhW.jpg",
+                "playlet_labels": "",
+                "language_name": "英语",
+                "social_media_id_list": [
+                    "9",
+                    "13",
+                    "14",
+                    "15"
+                ],
+                "theater_name": "GoodShort",
+                "theater_icon_url": "https://cpspromotioncdn.zwnet.cn/cps_image/system/_qZn1iSDN1mk0bfd8d90c3f476aed315500f8a4d7f2d_20260317104041_c9e1f85d58.png",
+                "app_click_frequency": "0"
+            },
+            {
+                "cps_playlet_id": "60987",
+                "playlet_id": "KXyoATzVbbCLeO19XwGodQ==",
+                "order_amount_yuan": "0",
+                "order_settle_amount_yuan": "0",
+                "order_num": "0",
+                "ad_amount_yuan": "/",
+                "ad_settle_amount_yuan": "/",
+                "estimate_amount_yuan": "0",
+                "click_frequency": "0",
+                "search_frequency": "0",
+                "stain_user_count": "0",
+                "create_time": "2026-06-14 23:52:08",
+                "playlet_title": "You're Hired, Billionaire Callboy",
+                "playlet_cover": "https://x.getokm.com/videobook/202602/cover-vWX5CDCKmp.jpg",
+                "playlet_labels": "",
+                "language_name": "英语",
+                "social_media_id_list": [
+                    "9",
+                    "13"
+                ],
+                "theater_name": "GoodShort",
+                "theater_icon_url": "https://cpspromotioncdn.zwnet.cn/cps_image/system/_qZn1iSDN1mk0bfd8d90c3f476aed315500f8a4d7f2d_20260317104041_c9e1f85d58.png",
+                "app_click_frequency": "0"
+            },
+            {
+                "cps_playlet_id": "61019",
+                "playlet_id": "f69YKULAAmatm9l6mYEUTA==",
+                "order_amount_yuan": "0",
+                "order_settle_amount_yuan": "0",
+                "order_num": "0",
+                "ad_amount_yuan": "/",
+                "ad_settle_amount_yuan": "/",
+                "estimate_amount_yuan": "0",
+                "click_frequency": "0",
+                "search_frequency": "0",
+                "stain_user_count": "0",
+                "create_time": "2026-06-14 23:50:48",
+                "playlet_title": "Choosing the Right One",
+                "playlet_cover": "https://x.getokm.com/videobook/202604/cover-jAReQGKyyn.jpg",
+                "playlet_labels": "",
+                "language_name": "英语",
+                "social_media_id_list": [
+                    "9",
+                    "13",
+                    "14",
+                    "15"
+                ],
+                "theater_name": "GoodShort",
+                "theater_icon_url": "https://cpspromotioncdn.zwnet.cn/cps_image/system/_qZn1iSDN1mk0bfd8d90c3f476aed315500f8a4d7f2d_20260317104041_c9e1f85d58.png",
+                "app_click_frequency": "0"
+            },
+            {
+                "cps_playlet_id": "60630",
+                "playlet_id": "XmeBhTC6i9lSwdH4K7Oalw==",
+                "order_amount_yuan": "0",
+                "order_settle_amount_yuan": "0",
+                "order_num": "0",
+                "ad_amount_yuan": "/",
+                "ad_settle_amount_yuan": "/",
+                "estimate_amount_yuan": "0",
+                "click_frequency": "0",
+                "search_frequency": "0",
+                "stain_user_count": "0",
+                "create_time": "2026-06-14 23:50:22",
+                "playlet_title": "Reborn for Revenge, I Went Mad 2",
+                "playlet_cover": "https://x.getokm.com/videobook/202605/cover-BfIzqAU26i.jpg",
+                "playlet_labels": "",
+                "language_name": "英语",
+                "social_media_id_list": [
+                    "9",
+                    "13",
+                    "15"
+                ],
+                "theater_name": "GoodShort",
+                "theater_icon_url": "https://cpspromotioncdn.zwnet.cn/cps_image/system/_qZn1iSDN1mk0bfd8d90c3f476aed315500f8a4d7f2d_20260317104041_c9e1f85d58.png",
+                "app_click_frequency": "0"
+            },
+            {
+                "cps_playlet_id": "54815",
+                "playlet_id": "42000008666",
+                "order_amount_yuan": "0",
+                "order_settle_amount_yuan": "0",
+                "order_num": "0",
+                "ad_amount_yuan": "/",
+                "ad_settle_amount_yuan": "/",
+                "estimate_amount_yuan": "0",
+                "click_frequency": "0",
+                "search_frequency": "/",
+                "stain_user_count": "0",
+                "create_time": "2026-05-02 14:41:01",
+                "playlet_title": "Vergiss Geld, ich hab das Superhelden-System",
+                "playlet_cover": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000008666/42000008666.jpg?t=1774591225115",
+                "playlet_labels": "",
+                "language_name": "德语",
+                "social_media_id_list": [
+                    "9",
+                    "13",
+                    "14",
+                    "15"
+                ],
+                "theater_name": "DramaBox",
+                "theater_icon_url": "https://cpspromotioncdn.zwnet.cn/cps_image/system/7y64GtcuRF9Q37471fd5c23cf5a58f5b7313873edcb0_20260126141211_4846b5ae59.png",
+                "app_click_frequency": "/"
+            }
+        ],
+        "page_info": {
+            "page": 1,
+            "page_size": 10,
+            "total": 8
+        }
+    },
+    "extra": {}
+}
+
+
+
+查看详细的链接：
+curl 'https://cpspromotion-api.zwnet.cn/app/promotion/channelInfoByCpsPlaylet' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: zh-CN,zh;q=0.9' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://www.juzhuanzhuan.com' \
+  -H 'platform: 2' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.juzhuanzhuan.com/' \
+  -H 'sec-ch-ua: "Google Chrome";v="149", "Chromium";v="149", "Not)A;Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sign: 7dd6d858c76abe7c54ddcd9f4dde3b28' \
+  -H 'token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJfIiwiYXVkIjoiXyIsImlhdCI6MTc3NzcwMzc0MywiZGF0YSI6eyJtZW1iZXJfaWQiOjEzNjg4fX0.jyxyZH9mRFfpjWDEPV9Sg-ASfiegk8rX49OgT7KDkZg' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36' \
+  --data-raw '{"social_media_id":13,"cps_playlet_id":"61793"}'
+
+json:
+{
+    "status_code": 1,
+    "msg": "查询成功",
+    "data": {
+        "order_amount_yuan": "0",
+        "order_settle_amount_yuan": "0",
+        "order_num": 0,
+        "ad_amount_yuan": "/",
+        "ad_settle_amount_yuan": "0",
+        "estimate_amount_yuan": "0",
+        "click_frequency": 0,
+        "app_click_frequency": 0,
+        "search_frequency": 0,
+        "stain_user_count": 0,
+        "promote_word": "989777",
+        "promote_link": "https://www.goodshort.com/koc/GRKOCAWTT989777/989777-KOC",
+        "app_promote_link": "https://www.goodshort.com/koc/GRKOCAWTT988003/988003-KOC"
+    },
+    "extra": {}
+}
+取推广链接：promote_link
