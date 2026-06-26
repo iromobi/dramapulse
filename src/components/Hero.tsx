@@ -1,8 +1,11 @@
 import Link from "next/link";
 import { Download, Play } from "@phosphor-icons/react/dist/ssr";
 import ScrollReveal from "./ScrollReveal";
+import { getAllDramas } from "@/lib/dramas";
 
 export default function Hero() {
+  const dramas = getAllDramas();
+  const heroDramas = dramas.slice(0, 4);
   return (
     <section className="relative min-h-[100dvh] flex items-center pt-16 overflow-hidden">
       {/* Background gradient */}
@@ -61,16 +64,16 @@ export default function Hero() {
                 <div className="col-span-1 flex flex-col gap-3 pt-8">
                   <div className="aspect-[2/3] rounded-2xl overflow-hidden bg-surface-800">
                     <img
-                      src="https://picsum.photos/seed/drama-hero-1/400/600"
-                      alt="Short drama scene"
+                      src={heroDramas[0].coverImage}
+                      alt={heroDramas[0].title}
                       className="w-full h-full object-cover"
                       loading="eager"
                     />
                   </div>
                   <div className="aspect-[2/3] rounded-2xl overflow-hidden bg-surface-800">
                     <img
-                      src="https://picsum.photos/seed/drama-hero-2/400/600"
-                      alt="Short drama scene"
+                      src={heroDramas[1].coverImage}
+                      alt={heroDramas[1].title}
                       className="w-full h-full object-cover"
                       loading="eager"
                     />
@@ -79,16 +82,16 @@ export default function Hero() {
                 <div className="col-span-2 flex flex-col gap-3">
                   <div className="aspect-[16/10] rounded-2xl overflow-hidden bg-surface-800">
                     <img
-                      src="https://picsum.photos/seed/drama-hero-3/800/500"
-                      alt="Short drama featured"
+                      src={heroDramas[2].coverImage}
+                      alt={heroDramas[2].title}
                       className="w-full h-full object-cover"
                       loading="eager"
                     />
                   </div>
                   <div className="aspect-[16/10] rounded-2xl overflow-hidden bg-surface-800">
                     <img
-                      src="https://picsum.photos/seed/drama-hero-4/800/500"
-                      alt="Short drama featured"
+                      src={heroDramas[3].coverImage}
+                      alt={heroDramas[3].title}
                       className="w-full h-full object-cover"
                       loading="eager"
                     />
