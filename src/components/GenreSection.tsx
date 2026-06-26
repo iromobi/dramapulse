@@ -59,6 +59,8 @@ export default function GenreSection() {
               <Link
                 href={`/genre/${genre.slug}`}
                 className={`group relative overflow-hidden rounded-2xl bg-gradient-to-br ${genre.gradient} border border-surface-800/50 hover:border-surface-700 p-6 transition-all duration-300 hover:shadow-lg block`}
+                data-track="genre_click"
+                data-track-genre={genre.slug}
               >
                 <Icon weight="fill" className={`w-10 h-10 ${genre.iconColor} mb-4`} />
                 <h3 className="text-xl font-semibold text-surface-100 mb-2">{genre.label}</h3>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Download, Star } from "@phosphor-icons/react/dist/ssr";
 import ScrollReveal from "./ScrollReveal";
+import EmailSubscribe from "./EmailSubscribe";
 
 export default function CTABanner() {
   return (
@@ -30,6 +31,8 @@ export default function CTABanner() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-accent-500 hover:bg-accent-400 text-surface-950 font-semibold px-8 py-4 rounded-full text-lg transition-all active:scale-[0.98]"
+                data-track="download_click"
+                data-track-source="cta_banner"
               >
                 <Download weight="bold" className="w-5 h-5" />
                 Download GoodShort
@@ -37,6 +40,10 @@ export default function CTABanner() {
             </div>
 
             <p className="text-xs text-surface-500">Available on iOS and Android. Free to download.</p>
+
+            <div className="pt-4">
+              <EmailSubscribe source="cta_banner" />
+            </div>
           </div>
         </div>
       </ScrollReveal>

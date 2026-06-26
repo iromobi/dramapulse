@@ -12,6 +12,9 @@ export default function DramaCard({ drama, priority = false }: DramaCardProps) {
     <Link
       href={`/drama/${drama.slug}`}
       className="group block rounded-2xl overflow-hidden bg-surface-900 border border-surface-800/50 hover:border-surface-700 transition-all duration-300 hover:shadow-lg hover:shadow-accent-500/5"
+      data-track="drama_click"
+      data-track-slug={drama.slug}
+      data-track-title={drama.title}
     >
       {/* Cover */}
       <div className="relative aspect-[2/3] overflow-hidden">

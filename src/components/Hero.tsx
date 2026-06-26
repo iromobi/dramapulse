@@ -37,6 +37,8 @@ export default function Hero() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 bg-accent-500 hover:bg-accent-400 text-surface-950 font-semibold px-6 py-3 rounded-full text-base transition-all active:scale-[0.98]"
+                  data-track="download_click"
+                  data-track-source="hero"
                 >
                   <Download weight="bold" className="w-5 h-5" />
                   Download GoodShort Free

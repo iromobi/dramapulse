@@ -59,6 +59,8 @@ export default function Nav() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-accent-500 hover:bg-accent-400 text-surface-950 text-sm font-medium px-4 py-2 rounded-full transition-colors"
+            data-track="download_click"
+            data-track-source="nav_desktop"
           >
             <Download weight="bold" className="w-4 h-4" />
             Watch Free
@@ -96,6 +98,8 @@ export default function Nav() {
               rel="noopener noreferrer"
               onClick={() => setOpen(false)}
               className="inline-flex items-center justify-center gap-2 bg-accent-500 hover:bg-accent-400 text-surface-950 text-base font-medium px-6 py-3 rounded-full transition-colors mt-4"
+              data-track="download_click"
+              data-track-source="nav_mobile"
             >
               <Download weight="bold" className="w-5 h-5" />
               Watch Free on GoodShort

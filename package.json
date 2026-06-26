@@ -9,18 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.1.7",
+    "@vercel/kv": "^2.0.0",
+    "framer-motion": "^12.40.0",
+    "motion": "^12.23.0",
     "next": "^15.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "motion": "^12.23.0",
-    "@phosphor-icons/react": "^2.1.7",
     "sharp": "^0.33.5"
   },
   "devDependencies": {
-    "typescript": "^5.7.0",
-    "@types/react": "^19.0.0",
+    "@tailwindcss/postcss": "^4.1.0",
     "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
     "tailwindcss": "^4.1.0",
-    "@tailwindcss/postcss": "^4.1.0"
+    "typescript": "^5.7.0"
   }
 }

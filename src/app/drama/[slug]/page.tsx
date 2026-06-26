@@ -13,6 +13,7 @@ import { getDramaBySlug, getAllDramas, getRelatedDramas } from "@/lib/dramas";
 import { dramaToMeta, generateDramaSchema, generateBreadcrumbSchema } from "@/lib/seo";
 import DramaCard from "@/components/DramaCard";
 import ScrollReveal from "@/components/ScrollReveal";
+import DramaDetailTracker from "@/components/DramaDetailTracker";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -57,6 +58,8 @@ export default async function DramaPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
 
+      <DramaDetailTracker slug={drama.slug} title={drama.title} />
+
       <article className="pt-24 pb-16">
         <div className="max-w-[1400px] mx-auto px-4 md:px-8">
           {/* Breadcrumb */}
@@ -100,6 +103,10 @@ export default async function DramaPage({ params }: Props) {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 bg-accent-500 hover:bg-accent-400 text-surface-950 font-semibold px-6 py-3 rounded-full text-base transition-all active:scale-[0.98] w-full"
+                  data-track="download_click"
+                  data-track-source="drama_sidebar"
+                  data-track-slug={drama.slug}
+                  data-track-title={drama.title}
                 >
                   <Download weight="bold" className="w-5 h-5" />
                   Watch on GoodShort
@@ -170,6 +177,10 @@ export default async function DramaPage({ params }: Props) {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-accent-500 hover:bg-accent-400 text-surface-950 font-semibold px-5 py-2.5 rounded-full text-sm transition-all active:scale-[0.98] whitespace-nowrap"
+                    data-track="download_click"
+                    data-track-source="drama_inline"
+                    data-track-slug={drama.slug}
+                    data-track-title={drama.title}
                   >
                     <Download weight="bold" className="w-4 h-4" />
                     Watch Now
